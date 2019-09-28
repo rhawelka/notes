@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Notes.NoteEntryPage"
+             Title="Note Entry">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Editor Placeholder="Enter Your Note"
+                    Text="{Binding Text}"
+                    HeightRequest="100"></Editor>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Text="save" 
+                        Clicked="OnSaveButtonClicked"></Button>
+                <Button Grid.Column="1"
+                        Text="delete"
+                        Clicked="OnDeleteButtonClicked"></Button>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+    <!--implicit style-->
+    <ContentPage.Resources>
+        <Style TargetType="{x:Type Editor}">
+            <Setter Property="BackgroundColor"
+                    Value="{StaticResource AppBackgroundColor}"></Setter>
+        </Style>
+        <Style TargetType="{x:Type Button}"
+               ApplyToDerivedTypes="True"
+               CanCascade="True">
+            <Setter Property="FontSize" Value="Medium"></Setter>
+            <Setter Property="BackgroundColor" Value="Aqua"></Setter>
+            <Setter Property="TextColor" Value="Red"></Setter>
+            <Setter Property="CornerRadius" Value="25"></Setter>
+        </Style>
+    </ContentPage.Resources>
+</ContentPage>

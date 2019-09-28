@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\Users\rafal.hawelka\source\repos\Notes\Notes\Notes\App.xaml</FilePath>
+      <Hash>4D-55-E0-BE-60-89-E6-45-75-DC-BE-A3-B1-6B-79-23</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\rafal.hawelka\source\repos\Notes\Notes\Notes\MainPage.xaml</FilePath>
+      <Hash>27-15-CC-84-29-85-B9-27-FB-0B-94-20-2C-AF-46-7C</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\rafal.hawelka\source\repos\Notes\Notes\Notes\NoteEntryPage.xaml</FilePath>
+      <Hash>84-61-C0-BD-77-43-6A-DF-F3-75-DB-6C-01-95-7F-D8</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\rafal.hawelka\source\repos\Notes\Notes\Notes\NotesPage.xaml</FilePath>
+      <Hash>A3-6E-A4-77-D8-F7-72-A1-B5-35-0F-A2-B3-E8-A9-6E</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>
